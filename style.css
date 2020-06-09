@@ -1,0 +1,86 @@
+body{text-align: center;}
+
+h1{display: inline-block;
+}
+
+img{vertical-align:middle;}
+.header{font-family: 'Open Sans Condensed', sans-serif;
+color: #F45D4C;
+background-image: url(background.jpg);}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #F45D4C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #A1DBB2;
+}
+.active{background-color:#FACA66;}
+.left{width:70%;
+float:left;}
+.left img{width:100%;}
+p{padding-left: 25px;
+padding-right:25px;}
+.post h3{font-family: 'Open Sans Condensed', sans-serif;color:#F45D4C;}
+.post p{font-family: 'Open Sans', sans-serif;
+padding-left:25px;
+padding-right:25px;}
+.post{border: solid #FACA66 3px}
+hr{width:23px;}
+.right{width:25%;
+float:right;}
+.right img{width:100%;}
+#about img{width:100px;}
+#about h3{font-family: 'Open Sans Condensed', sans-serif;}
+#about p{font-family: 'Open Sans', sans-serif;}
+.post a{text-decoration:none;
+font-family: 'Open Sans', sans-serif;
+color:black;
+}
+.post a:hover{color:#A1DBB2;
+text-decoration:underline;}
+#rabbit h3{font-family: 'Open Sans Condensed', sans-serif;}
+#rabbit p{font-family: 'Open Sans', sans-serif;}
+#rabbit img{width:200px;}
+.code h3{font-family: 'Open Sans Condensed', sans-serif;}
+.code p{font-family: 'Open Sans', sans-serif;}
+.code img{width:200px;}
+.prolink{text-decoration:none;
+border:none;
+background-color:#A1DBB2;
+color:#F45D4C;
+font-weight:bold;
+font-family: 'Open Sans Condensed', sans-serif;
+padding-top:5px;
+padding-bottom:5px;
+padding-left:10px;
+padding-right:10px;
+display:inline-block;}
+@media (max-width: 600px){.right{float:none;
+width:70%;
+margin: auto;
+}
+.left{float:none;
+margin:auto;}
+.prolink{display: block;
+margin:10px;}
+body{margin: auto;}
+}
