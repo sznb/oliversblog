@@ -9,13 +9,40 @@
 " type="image/x-icon">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
-	<link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
 	<div class="header">
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a id="sideact" href="home.html">Home</a>
+      <div class="dropdown">
+        <button onclick="myFunction()" id="openbtn" class="dropbtn">June 8 2020 <i class="fa fa-caret-down"></i></button>
+        <div id="myDropdown" class="dropdown-content">
+      <a href="walk.html">My Walk Post</a>
+      <a href="code.html">Code Post</a>
+      <a href="rabbit.html">My Rabbits</a>
+      </div>
+      </div>
+      <a href="about.html">About</a>
+    </div>
+    
+    
+      
+    
 		<ul>
+      <li id="btnopen">
+      <div id="main">
+        <button id="openbtn" class="openbtn" onclick="openNav()"><hr class="ham">
+          <hr class="ham">
+          <hr class="ham">
+         </button>
+         </div>
+        
+        </li>
 			<li><a class="active" href="index.html">Home</a></li>
 
 			<li><a href="about.html">About</a></li>

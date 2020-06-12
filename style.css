@@ -1,3 +1,158 @@
+/* Dropdown Button */
+.dropbtn {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #F7A541;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight:bold;
+  outline: none;
+  background-color: #FEE5AD;
+  border: none;}
+
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  text-align: center;
+  background-color: #FEE5AD;
+  min-width: 160px;
+  
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #FEE5AD
+  ; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #F7A541;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight:bold;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #A1DBB2;
+}
+#sideact{color:#F45D4C}
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 5px;
+  cursor: pointer;
+  background-color: #f1f1f100;
+  color: #F45D4C;
+  padding: 15px 8px;
+  border: none;
+  float:left;
+  display: block;
+  outline:none;
+  
+  
+ 
+}
+.openbtn:hover{background-color: #A1DBB2;
+}
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+.ham{background-color: #F45D4C;
+border:none;
+padding:1.5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body{text-align: center;}
 
 h1{display: inline-block;
@@ -34,6 +189,7 @@ li a:hover {
   background-color: #A1DBB2;
 }
 .active{background-color:#FACA66;}
+
 .left{width:70%;
 float:left;}
 .left img{width:100%;}
